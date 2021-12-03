@@ -1,0 +1,219 @@
+*{
+    margin-top: 0 0;
+    padding: 0 0;
+}
+
+body{
+    font-family: 'Asap', sans-serif;
+    /* background-image: url(./images/login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center bottom; */
+    /* overflow: hidden; */
+    background-color: hsla(208, 23%, 21%, 0.603);
+    background-blend-mode: multiply;
+    margin-left: 0;
+    margin-top: auto;
+    margin-right: 0;
+    margin-bottom: 0;
+
+}
+
+.header-container{
+    background-color: rgb(22, 22, 22);
+    min-height: 100px;
+    position: fixed;
+    width: 100%;
+    margin-left: 0;
+}
+
+header{
+    max-width: 1024px;
+    background-color: rgb(22, 22, 22);
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 0; 
+    margin-top: 0;
+}
+
+.mybutton{
+    color:white;
+    padding: 10px 25px;
+    margin-left: 12px;
+    text-decoration: none;
+}
+
+.mybutton:hover{
+    background-color: orange;
+}
+
+.container1{
+    min-height: 300px;
+    margin: 0 0;
+    padding-top: 380px;
+    min-width: 1024px;
+    background-image: url(./images/service.png);
+    background-size: cover;
+    background-color: hsla(208, 23%, 21%, 0.603);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+
+.service{
+    color: rgb(255, 255, 255);
+    margin-top: -250px;
+    margin-left: 130px;
+}
+
+.scontent{
+    padding-top: 10px;
+    font-size: 15pt;
+    color: rgb(224, 157, 157);
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+#contactnow{
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    background-color:rgb(236, 129, 126) ;
+    padding: 15px 50px;
+    border-radius: 25px 5px;
+}
+
+#contactnow:hover{
+    background-color: orchid;
+}
+
+#contactnow:hover span{
+    display: none;
+}
+
+#contactnow:hover:after{
+    content: "Bring You There!!!";
+}
+
+.container2header{
+    margin: 0 0;
+    background-color: rgb(194, 176, 149);
+    width: 100%;
+    min-height: 600px;
+    padding-top: 10px;
+    min-width: 1024px;
+}
+.container2{
+    min-height: 600px;
+    min-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(194, 176, 149);
+}
+
+.personal{
+    width: 45%;
+    background-color: rgb(206, 199, 119);
+    border: rgb(114, 112, 85) solid 5px;
+    justify-content: center;
+    text-align: center;
+    image-orientation: ;
+    font-size: 18pt;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+
+.personal img{
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.container3header{
+    margin: 0 0;
+    background-color: rgb(212, 203, 186);
+    min-width: 1024px;
+    min-height: 500px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+.container3{
+    min-height: 500px;
+    min-width: 1024px;
+    margin: 0 auto;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(212, 203, 186);
+}
+
+.inputwrapper{
+    padding: 30px;
+    padding-right:0 ;
+    justify-content: space-between;
+}
+
+#name{
+    border-radius: 10px 10px 0 0;
+    font-size: 15pt;
+    padding: 15px 30px;
+    border: none;
+    border-bottom: orange solid 5px;
+    width: 32%;
+}
+
+#email{
+    border-radius: 10px 10px 0 0;
+    font-size: 15pt;
+    padding: 15px 30px;
+    border: none;
+    border-bottom: orange solid 5px;
+    margin-left: 100px;
+    width: 45%;
+}
+
+#message{
+    border-radius: 10px 10px 0 0;
+    font-size: 15pt;
+    padding: 15px 30px;
+    border: none;
+    border-bottom: orange solid 5px;
+}
+
+#emailimg{
+    margin-top: -380px;
+    margin-left: 500px;
+    width: 230px;
+}
+
+.sendmessage{
+    justify-content: center;
+    display: flex;
+}
+
+#sendmessage{
+    font-size: 20px;
+    background-color: cornsilk;
+    box-shadow: rgb(117, 129, 97) 3px 3px;
+    border-radius: 20px;
+    color: crimson;
+    border: none;
+    padding: 15px 40px;
+}
+
+#sendmessage:hover{
+    background-color: rgb(248, 241, 211);
+}
+#sendmessage:active{
+    background-color: rgb(255, 185, 160);
+}
+
+
